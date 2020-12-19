@@ -13,7 +13,6 @@ router.get('/', (req, res) => {
 // Post route for /auth/signup
 router.post('/signup', (req, res) => {
     console.log('body', req.body);
-    
     res.json({
         message: '✅'
     });
